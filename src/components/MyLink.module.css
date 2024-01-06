@@ -1,0 +1,15 @@
+.Link {
+    color: white;
+}
+
+
+.Active {
+    border-bottom: 1px solid rgba(3, 95, 170, 0.473);
+    color: rgba(12, 121, 210, 0.973);
+}
+
+
+
+.Link:not(:last-child) {
+    margin-right: 20px;
+}
